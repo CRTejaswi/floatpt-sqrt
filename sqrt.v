@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module tst(
+module sqrt(
     input [31:0]A,
     input clk,
     input reset,
