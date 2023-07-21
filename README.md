@@ -26,7 +26,9 @@ __Results__ <br>
 __Documentation__: [📄](docs/v2.pdf) <br>
 __Reports__: [timing](v2/reports/timing.txt), [power](v2/reports/power.txt) <br>
 __Approach__: <br>
-Result is accumulated using `X[i+1] = Xi * (3 - Xi * Xi * d) / 2`. `1/sqrt(N)` is obtained from a pre-calculated LUT. This approach is the fastest; consumes lesser area too.
+Result is accumulated using `X[i+1] = Xi * (3 - Xi * Xi * d) / 2`.
+`1/√N` is obtained from a pre-calculated LUT.
+This approach is the fastest; consumes lesser area too.
 <img src="files/v2.png" width="720" title="Approach">
 
 __Results__ <br>
