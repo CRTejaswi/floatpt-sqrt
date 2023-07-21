@@ -6,7 +6,7 @@
 
 # Implementations
 
-## [32bit integer sqrt](root_restoring.v):
+## [v1: 32bit integer sqrt](root_restoring.v):
 __Documentation__: [📄](docs/v1.pdf) <br>
 __Reports__: [timing](v1/reports/timing.txt), [power](v1/reports/power.txt) <br>
 __Approach__: <br>
@@ -14,15 +14,15 @@ __Approach__: <br>
 
 __Results__ <br>
 
-<!-- <img src="v1/files/schematic1.png" width="720" title="RTL Schematic"><br> -->
-<!-- <img src="v1/files/schematic2.png" width="720" title="RTL Schematic"><br> -->
+<!-- <img src="files/schematic1.png" width="720" title="RTL Schematic"><br> -->
+<!-- <img src="files/schematic2.png" width="720" title="RTL Schematic"><br> -->
 <img src="files/sim1.png" width="720" title="Simulation: Testbench Evaluation"><br>
-<!-- <img src="v1/files/sim1.png" width="720" title="Simulation: SLL, SLT/SLTU<br>, SRL/SRA"><br> -->
-<!-- <img src="v1/files/usage1.png" width="720" title="Usage: Power/Timing"><br> -->
-<!-- <img src="v1/files/usage2.png" width="720" title="Usage: FPGA"><br> -->
+<!-- <img src="files/sim1.png" width="720" title="Simulation: SLL, SLT/SLTU<br>, SRL/SRA"><br> -->
+<img src="files/usage1a.png" width="720" title="Usage: Power/Timing"><br>
+<!-- <img src="files/usage1b.png" width="720" title="Usage: FPGA"><br> -->
 
 
-## [32bit floating-pt: ](root_newton.v):
+## [v2: 32bit floating-pt: ](root_newton.v):
 __Documentation__: [📄](docs/v2.pdf) <br>
 __Reports__: [timing](v2/reports/timing.txt), [power](v2/reports/power.txt) <br>
 __Approach__: <br>
@@ -33,16 +33,16 @@ This approach is the fastest; consumes lesser area too.
 
 __Results__ <br>
 
-<!-- <img src="v1/files/schematic1.png" width="720" title="RTL Schematic"><br> -->
-<!-- <img src="v1/files/schematic2.png" width="720" title="RTL Schematic"><br> -->
+<!-- <img src="files/schematic1.png" width="720" title="RTL Schematic"><br> -->
+<!-- <img src="files/schematic2.png" width="720" title="RTL Schematic"><br> -->
 <img src="files/sim2a.png" width="720" title="Simulation: Testbench Evaluation"><br>
 <img src="files/sim2b.png" width="720" title="Simulation: Testbench Evaluation"><br>
-<!-- <img src="v1/files/sim1.png" width="720" title="Simulation: SLL, SLT/SLTU<br>, SRL/SRA"><br> -->
-<!-- <img src="v1/files/usage1.png" width="720" title="Usage: Power/Timing"><br> -->
-<!-- <img src="v1/files/usage2.png" width="720" title="Usage: FPGA"><br> -->
+<!-- <img src="files/sim1.png" width="720" title="Simulation: SLL, SLT/SLTU<br>, SRL/SRA"><br> -->
+<img src="files/usage2a.png" width="720" title="Usage: Power/Timing"><br>
+<!-- <img src="files/usage2b.png" width="720" title="Usage: FPGA"><br> -->
 
 
-## [32bit floating-pt: ](sqrt.v):
+## [v3: 32bit floating-pt: ](sqrt.v):
 
 __Documentation__: [📄](docs/v3.pdf) <br>
 __Reports__: [timing](v3/reports/timing.txt), [power](v3/reports/power.txt) <br>
@@ -54,8 +54,8 @@ __Results__ <br>
 
 <img src="files/schematic3.png" width="720" title="RTL Schematic"><br>
 <img src="files/sim3.png" width="720" title="Simulation: Testbench Evaluation"><br>
-<!-- <img src="v1/files/sim1.png" width="720" title="Simulation: SLL, SLT/SLTU<br>, SRL/SRA"><br> -->
-<!-- <img src="v1/files/usage1.png" width="720" title="Usage: Power/Timing"><br> -->
-<!-- <img src="v1/files/usage2.png" width="720" title="Usage: FPGA"><br> -->
+<!-- <img src="files/sim1.png" width="720" title="Simulation: SLL, SLT/SLTU<br>, SRL/SRA"><br> -->
+<img src="files/usage3a.png" width="720" title="Usage: Power/Timing"><br>
+<!-- <img src="files/usage3b.png" width="720" title="Usage: FPGA"><br> -->
 
 # References
