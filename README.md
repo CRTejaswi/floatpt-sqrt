@@ -7,7 +7,7 @@
 # Implementations
 
 ## [v1: 32bit integer sqrt](root_restoring.v):
-__Documentation__: [📄](docs/v1.pdf) <br>
+__Documentation__: [📄](docs/report.pdf) <br>
 __Reports__: [timing](v1/reports/timing.txt), [power](v1/reports/power.txt) <br>
 __Approach__: <br>
 <img src="files/v1.png" width="720" title="Approach">
